@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkPair - Real-Time Connection</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>LinkPair</h1>
+            <p>Create instant real-time connections</p>
+        </div>
+        
+        <div class="content">
+            <div class="input-group">
+                <label for="username">Your Name</label>
+                <input type="text" id="username" placeholder="Enter your name">
+            </div>
+            
+            <button id="create-btn">Create Connection Link</button>
+            
+            <div class="link-display" id="link-display">
+                <p>Share this link:</p>
+                <div class="link-url" id="link-url"></div>
+                <button class="copy-btn" id="copy-btn">Copy Link</button>
+                
+                <div class="status">
+                    <p id="status-text" class="waiting">Waiting for someone to join...</p>
+                </div>
+                
+                <div class="action-buttons">
+                    <button id="new-link-btn" class="secondary-btn">Create New Link</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>LinkPair &copy; 2023 - Real-time peer connections</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

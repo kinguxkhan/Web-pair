@@ -1,0 +1,12 @@
+{
+  "name": "linkpair-website",
+  "version": "1.0.0",
+  "description": "A real-time pair link website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}
